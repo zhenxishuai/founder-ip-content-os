@@ -1,0 +1,434 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-28T17:02:14.355103",
+    "hooks_count": 6,
+    "anchors_count": 9,
+    "ctas_count": 9
+  },
+  "hooks": {
+    "反常识": [
+      {
+        "id": "06afb888-b81d-4aea-8f4b-ace50526ac52",
+        "category": "反常识",
+        "content": "反常识类钩子 #1",
+        "template": "为什么{subject}都{misconception}，其实{truth}",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "strength": 4,
+        "risk_level": "safe",
+        "usage_count": 0,
+        "created_at": "2026-02-28T17:02:14.354916"
+      }
+    ],
+    "对立": [
+      {
+        "id": "0d4c6b5c-0b90-4b34-90c0-cd7973344418",
+        "category": "对立",
+        "content": "对立类钩子 #1",
+        "template": "你以为{assumption}，其实{reality}",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "strength": 4,
+        "risk_level": "safe",
+        "usage_count": 0,
+        "created_at": "2026-02-28T17:02:14.354937"
+      }
+    ],
+    "悬念": [
+      {
+        "id": "87826fe9-efb2-4c45-bfc2-cf0b17789d7c",
+        "category": "悬念",
+        "content": "悬念类钩子 #1",
+        "template": "我研究多个案例后，发现一个残酷真相",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "strength": 4,
+        "risk_level": "safe",
+        "usage_count": 0,
+        "created_at": "2026-02-28T17:02:14.354947"
+      }
+    ],
+    "结果": [
+      {
+        "id": "5da826a3-bbd6-4064-ad3f-dc0d6bb896dd",
+        "category": "结果",
+        "content": "结果类钩子 #1",
+        "template": "真正{success}的{subject}，都做对了一件事",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "strength": 4,
+        "risk_level": "safe",
+        "usage_count": 0,
+        "created_at": "2026-02-28T17:02:14.354954"
+      }
+    ],
+    "代价": [
+      {
+        "id": "1b3a6591-cdaf-456e-8574-25c3b81ef299",
+        "category": "代价",
+        "content": "代价类钩子 #1",
+        "template": "没有{requirement}，你的{goal}毫无价值",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "strength": 4,
+        "risk_level": "safe",
+        "usage_count": 0,
+        "created_at": "2026-02-28T17:02:14.354965"
+      }
+    ],
+    "身份": [
+      {
+        "id": "788ac0af-b8a3-414d-b3e2-c4b41fb70a42",
+        "category": "身份",
+        "content": "身份类钩子 #1",
+        "template": "{identity}的我，看待{topic}的角度可能和你不一样",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "strength": 4,
+        "risk_level": "safe",
+        "usage_count": 0,
+        "created_at": "2026-02-28T17:02:14.354975"
+      }
+    ]
+  },
+  "anchors": {
+    "经验锚": [
+      {
+        "id": "a546bafa-4819-4f14-8227-aeedac24fa90",
+        "category": "经验锚",
+        "version": "short",
+        "content": "经验锚-short版本",
+        "template": "我{action}过{number}个{subject}后发现",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.354983"
+      },
+      {
+        "id": "73bec5a0-1c45-4048-afe3-e96fcf72b347",
+        "category": "经验锚",
+        "version": "medium",
+        "content": "经验锚-medium版本",
+        "template": "我{action}过{number}个{subject}后发现",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.354989"
+      },
+      {
+        "id": "08276f34-f6b3-46fe-a93d-703e0170d0f3",
+        "category": "经验锚",
+        "version": "long",
+        "content": "经验锚-long版本",
+        "template": "我{action}过{number}个{subject}后发现",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.354994"
+      }
+    ],
+    "方法锚": [
+      {
+        "id": "7bfa7008-b282-4c16-b800-97a02ce46937",
+        "category": "方法锚",
+        "version": "short",
+        "content": "方法锚-short版本",
+        "template": "这套{method}在我的{number}个{context}里都验证过",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355001"
+      },
+      {
+        "id": "e3b8c428-b4ea-435a-af26-5744f7c5d071",
+        "category": "方法锚",
+        "version": "medium",
+        "content": "方法锚-medium版本",
+        "template": "这套{method}在我的{number}个{context}里都验证过",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355006"
+      },
+      {
+        "id": "f721a58f-fa48-4ce6-a553-20a24ca0aa3a",
+        "category": "方法锚",
+        "version": "long",
+        "content": "方法锚-long版本",
+        "template": "这套{method}在我的{number}个{context}里都验证过",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355011"
+      }
+    ],
+    "证据锚": [
+      {
+        "id": "7af091c5-b372-4d29-9a33-896806d2f5eb",
+        "category": "证据锚",
+        "version": "short",
+        "content": "证据锚-short版本",
+        "template": "根据{source}数据，{insight}",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355018"
+      },
+      {
+        "id": "0a130ac4-6992-42f9-8433-4b8820444642",
+        "category": "证据锚",
+        "version": "medium",
+        "content": "证据锚-medium版本",
+        "template": "根据{source}数据，{insight}",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355024"
+      },
+      {
+        "id": "e89609c6-f1a7-4e83-9468-f38e3f2b0b21",
+        "category": "证据锚",
+        "version": "long",
+        "content": "证据锚-long版本",
+        "template": "根据{source}数据，{insight}",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "credibility_score": 4.5,
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355029"
+      }
+    ]
+  },
+  "ctas": {
+    "轻引流": [
+      {
+        "id": "5a2490d3-686e-4e48-870a-23b8b4938742",
+        "level": "轻引流",
+        "content": "轻引流CTA #1",
+        "template": "完整版在{platform} / 我把这套{content}整理成了文档",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "medium",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355037"
+      },
+      {
+        "id": "55b09ab0-9687-4cbb-a2cc-642331289086",
+        "level": "轻引流",
+        "content": "轻引流CTA #2",
+        "template": "完整版在{platform} / 我把这套{content}整理成了文档",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "medium",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355043"
+      },
+      {
+        "id": "e1c265e0-04ef-4833-90de-5aca89d93b0b",
+        "level": "轻引流",
+        "content": "轻引流CTA #3",
+        "template": "完整版在{platform} / 我把这套{content}整理成了文档",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "medium",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355060"
+      }
+    ],
+    "中引流": [
+      {
+        "id": "c7f979f2-d010-4c31-a03a-f1dcdb3421ed",
+        "level": "中引流",
+        "content": "中引流CTA #1",
+        "template": "评论{keyword}领{resource} / 私信我领{resource}",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "medium-high",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355068"
+      },
+      {
+        "id": "e60f1e4a-9509-45f7-8312-bc81e3f053cf",
+        "level": "中引流",
+        "content": "中引流CTA #2",
+        "template": "评论{keyword}领{resource} / 私信我领{resource}",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "medium-high",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355074"
+      },
+      {
+        "id": "95276f1f-ce43-4f1a-8d59-658475a4b0c0",
+        "level": "中引流",
+        "content": "中引流CTA #3",
+        "template": "评论{keyword}领{resource} / 私信我领{resource}",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "medium-high",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355079"
+      }
+    ],
+    "重引流": [
+      {
+        "id": "2abe3420-7f91-44d4-81ad-40cc65c50e79",
+        "level": "重引流",
+        "content": "重引流CTA #1",
+        "template": "如果你想{goal}，欢迎{action} / 预约{duration}的咨询",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "high",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355087"
+      },
+      {
+        "id": "a8fa3c91-f366-4b3c-997d-93f44853c068",
+        "level": "重引流",
+        "content": "重引流CTA #2",
+        "template": "如果你想{goal}，欢迎{action} / 预约{duration}的咨询",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "high",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355093"
+      },
+      {
+        "id": "3bea13f2-c169-467f-a9fd-e33656badfc1",
+        "level": "重引流",
+        "content": "重引流CTA #3",
+        "template": "如果你想{goal}，欢迎{action} / 预约{duration}的咨询",
+        "applicable_platforms": [
+          "video_number",
+          "xiaohongshu",
+          "wechat_official"
+        ],
+        "applicable_content_types": [
+          "framework",
+          "case_study",
+          "insight"
+        ],
+        "conversion_expectation": "high",
+        "risk_level": "safe",
+        "created_at": "2026-02-28T17:02:14.355098"
+      }
+    ]
+  }
+}

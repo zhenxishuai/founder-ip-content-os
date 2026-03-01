@@ -1,0 +1,65 @@
+{
+  "asset_database": {
+    "metadata": {
+      "version": "1.0",
+      "last_updated": "2026-03-01",
+      "total_assets": 0
+    },
+    "components": {
+      "viewpoints": [],
+      "golden_sentences": [],
+      "cases": [],
+      "frameworks": [],
+      "conflict_points": []
+    },
+    "hooks": {
+      "反常识": [],
+      "对立": [],
+      "悬念": [],
+      "结果": [],
+      "代价": [],
+      "身份": []
+    },
+    "anchors": {
+      "经验锚": [],
+      "方法锚": [],
+      "证据锚": []
+    },
+    "ctas": {
+      "轻引流": [],
+      "中引流": [],
+      "重引流": []
+    },
+    "templates": {
+      "title_structures": [],
+      "body_structures": [],
+      "ending_structures": []
+    },
+    "metrics": {
+      "asset_scores": {},
+      "usage_counts": {},
+      "performance_data": {}
+    }
+  },
+  "asset_item_schema": {
+    "id": "string (UUID)",
+    "type": "string (viewpoint|golden_sentence|case|framework|conflict_point|hook|anchor|cta)",
+    "content": "string",
+    "source_hub_id": "string",
+    "category": "string",
+    "tags": ["string"],
+    "platforms": ["string (video_number|xiaohongshu|wechat_official)"],
+    "strength": "number (1-5)",
+    "risk_level": "string (safe|caution|high_risk)",
+    "default_score": "number (default: 3)",
+    "usage_count": "number (default: 0)",
+    "last_used": "string (ISO 8601)",
+    "created_at": "string (ISO 8601)",
+    "metadata": {
+      "length": "number",
+      "tone": "string",
+      "target_audience": "string",
+      "performance_notes": "string"
+    }
+  }
+}

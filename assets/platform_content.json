@@ -1,0 +1,744 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-28T17:02:14.355967",
+    "source_hub_id": "hub_b9fe713c922e_20260228",
+    "total_content_count": 21
+  },
+  "video_number": [
+    {
+      "id": "3bd38798-c720-4768-9d01-6275c0a7f667",
+      "platform": "video_number",
+      "sequence": 1,
+      "title": "视频号内容 #1",
+      "opening_hook": "黄金三秒提问待生成",
+      "body": "核心框架待生成（200-260字）",
+      "closing_hook": "收尾钩子待生成",
+      "anchor": "信任锚点待调用",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 230,
+        "estimated_duration_seconds": 75,
+        "tone": "理性克制",
+        "style": "短图文或口播脚本",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_hook": true,
+        "has_anchor": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.355987"
+    },
+    {
+      "id": "5c220914-0fa5-4e47-9295-b09288f79057",
+      "platform": "video_number",
+      "sequence": 2,
+      "title": "视频号内容 #2",
+      "opening_hook": "黄金三秒提问待生成",
+      "body": "核心框架待生成（200-260字）",
+      "closing_hook": "收尾钩子待生成",
+      "anchor": "信任锚点待调用",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 230,
+        "estimated_duration_seconds": 75,
+        "tone": "理性克制",
+        "style": "短图文或口播脚本",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_hook": true,
+        "has_anchor": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.355996"
+    },
+    {
+      "id": "42a94812-1274-474a-9324-2d3a265b3901",
+      "platform": "video_number",
+      "sequence": 3,
+      "title": "视频号内容 #3",
+      "opening_hook": "黄金三秒提问待生成",
+      "body": "核心框架待生成（200-260字）",
+      "closing_hook": "收尾钩子待生成",
+      "anchor": "信任锚点待调用",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 230,
+        "estimated_duration_seconds": 75,
+        "tone": "理性克制",
+        "style": "短图文或口播脚本",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_hook": true,
+        "has_anchor": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356003"
+    },
+    {
+      "id": "265e9cda-c49a-419a-a4a6-567666cdca85",
+      "platform": "video_number",
+      "sequence": 4,
+      "title": "视频号内容 #4",
+      "opening_hook": "黄金三秒提问待生成",
+      "body": "核心框架待生成（200-260字）",
+      "closing_hook": "收尾钩子待生成",
+      "anchor": "信任锚点待调用",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 230,
+        "estimated_duration_seconds": 75,
+        "tone": "理性克制",
+        "style": "短图文或口播脚本",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_hook": true,
+        "has_anchor": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356009"
+    },
+    {
+      "id": "1388cf37-5fa5-487f-9f40-54a106d63315",
+      "platform": "video_number",
+      "sequence": 5,
+      "title": "视频号内容 #5",
+      "opening_hook": "黄金三秒提问待生成",
+      "body": "核心框架待生成（200-260字）",
+      "closing_hook": "收尾钩子待生成",
+      "anchor": "信任锚点待调用",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 230,
+        "estimated_duration_seconds": 75,
+        "tone": "理性克制",
+        "style": "短图文或口播脚本",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_hook": true,
+        "has_anchor": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356015"
+    },
+    {
+      "id": "a0d90544-c4bb-4860-bf0c-ca39a4e130ba",
+      "platform": "video_number",
+      "sequence": 6,
+      "title": "视频号内容 #6",
+      "opening_hook": "黄金三秒提问待生成",
+      "body": "核心框架待生成（200-260字）",
+      "closing_hook": "收尾钩子待生成",
+      "anchor": "信任锚点待调用",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 230,
+        "estimated_duration_seconds": 75,
+        "tone": "理性克制",
+        "style": "短图文或口播脚本",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_hook": true,
+        "has_anchor": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356021"
+    },
+    {
+      "id": "7262031b-564d-41cb-998b-7fd9821e16e8",
+      "platform": "video_number",
+      "sequence": 7,
+      "title": "视频号内容 #7",
+      "opening_hook": "黄金三秒提问待生成",
+      "body": "核心框架待生成（200-260字）",
+      "closing_hook": "收尾钩子待生成",
+      "anchor": "信任锚点待调用",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 230,
+        "estimated_duration_seconds": 75,
+        "tone": "理性克制",
+        "style": "短图文或口播脚本",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_hook": true,
+        "has_anchor": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356027"
+    },
+    {
+      "id": "4ccbda4c-8005-467b-9a72-9aa268b84d31",
+      "platform": "video_number",
+      "sequence": 8,
+      "title": "视频号内容 #8",
+      "opening_hook": "黄金三秒提问待生成",
+      "body": "核心框架待生成（200-260字）",
+      "closing_hook": "收尾钩子待生成",
+      "anchor": "信任锚点待调用",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 230,
+        "estimated_duration_seconds": 75,
+        "tone": "理性克制",
+        "style": "短图文或口播脚本",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_hook": true,
+        "has_anchor": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356035"
+    }
+  ],
+  "xiaohongshu": [
+    {
+      "id": "62b88da1-004e-4e96-a507-7a00870b9763",
+      "platform": "xiaohongshu",
+      "sequence": 1,
+      "title": "小红书内容 #1",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356042"
+    },
+    {
+      "id": "646a06d8-f1d0-4e54-88be-4785caa96a18",
+      "platform": "xiaohongshu",
+      "sequence": 2,
+      "title": "小红书内容 #2",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356049"
+    },
+    {
+      "id": "9ebdfe82-a1da-40ff-9663-25c29269b841",
+      "platform": "xiaohongshu",
+      "sequence": 3,
+      "title": "小红书内容 #3",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356064"
+    },
+    {
+      "id": "6b34f3a8-ef45-4c37-86c6-194fd0cbd551",
+      "platform": "xiaohongshu",
+      "sequence": 4,
+      "title": "小红书内容 #4",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356070"
+    },
+    {
+      "id": "3c5c0664-22e0-43c9-a7f2-ef2c7fee9f04",
+      "platform": "xiaohongshu",
+      "sequence": 5,
+      "title": "小红书内容 #5",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356076"
+    },
+    {
+      "id": "5031cc79-6259-4c01-8a01-b54675a269d7",
+      "platform": "xiaohongshu",
+      "sequence": 6,
+      "title": "小红书内容 #6",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356081"
+    },
+    {
+      "id": "778caa71-7859-41e4-80b4-2b8a55701c9d",
+      "platform": "xiaohongshu",
+      "sequence": 7,
+      "title": "小红书内容 #7",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356087"
+    },
+    {
+      "id": "36ff33da-602d-4fd0-be8a-f1334e5cbae9",
+      "platform": "xiaohongshu",
+      "sequence": 8,
+      "title": "小红书内容 #8",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356094"
+    },
+    {
+      "id": "e7dc0fc2-307b-4307-8327-1524a613558e",
+      "platform": "xiaohongshu",
+      "sequence": 9,
+      "title": "小红书内容 #9",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356101"
+    },
+    {
+      "id": "c612e814-3533-4674-9d98-7f0671bd7e82",
+      "platform": "xiaohongshu",
+      "sequence": 10,
+      "title": "小红书内容 #10",
+      "pain_point_headline": "痛点大字报待生成",
+      "body": "推演内容待生成（300-500字）",
+      "checklist": [
+        "检查项1",
+        "检查项2",
+        "检查项3"
+      ],
+      "tags": [
+        "#创业",
+        "#融资",
+        "#战略",
+        "#观点",
+        "#干货",
+        "#思维",
+        "#案例",
+        "#方法",
+        "#经验",
+        "#建议"
+      ],
+      "interactive_question": "互动问题待生成",
+      "cta": "引流CTA待调用",
+      "metadata": {
+        "word_count": 400,
+        "carousel_pages": 6,
+        "format": "轮播卡片或长图文",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_headline": true,
+        "has_checklist": true,
+        "has_tags": true,
+        "has_question": true,
+        "has_cta": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356107"
+    }
+  ],
+  "wechat_official": [
+    {
+      "id": "af3b1e6f-2826-4445-921d-b81b83b97af2",
+      "platform": "wechat_official",
+      "sequence": 1,
+      "article_type": "框架文",
+      "title": "公众号文章 #1 - 框架文",
+      "opening": "开篇观点待生成",
+      "body_sections": {
+        "insight": "核心观点待生成",
+        "case_study": "案例分析待生成",
+        "summary": "总结待生成"
+      },
+      "closing_cta": "结尾引导CTA待调用",
+      "metadata": {
+        "word_count": 1000,
+        "reading_time_minutes": 4,
+        "format": "长文章",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_opening": true,
+        "has_insight": true,
+        "has_case": true,
+        "has_summary": true,
+        "has_cta": true,
+        "logic_coherent": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356116"
+    },
+    {
+      "id": "457c8566-45c8-49a8-b6ec-8a97d5f8ff95",
+      "platform": "wechat_official",
+      "sequence": 2,
+      "article_type": "案例文",
+      "title": "公众号文章 #2 - 案例文",
+      "opening": "开篇观点待生成",
+      "body_sections": {
+        "insight": "核心观点待生成",
+        "case_study": "案例分析待生成",
+        "summary": "总结待生成"
+      },
+      "closing_cta": "结尾引导CTA待调用",
+      "metadata": {
+        "word_count": 1000,
+        "reading_time_minutes": 4,
+        "format": "长文章",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_opening": true,
+        "has_insight": true,
+        "has_case": true,
+        "has_summary": true,
+        "has_cta": true,
+        "logic_coherent": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356126"
+    },
+    {
+      "id": "b40c6726-7ce8-409f-8696-19414aa16859",
+      "platform": "wechat_official",
+      "sequence": 3,
+      "article_type": "误区文",
+      "title": "公众号文章 #3 - 误区文",
+      "opening": "开篇观点待生成",
+      "body_sections": {
+        "insight": "核心观点待生成",
+        "case_study": "案例分析待生成",
+        "summary": "总结待生成"
+      },
+      "closing_cta": "结尾引导CTA待调用",
+      "metadata": {
+        "word_count": 1000,
+        "reading_time_minutes": 4,
+        "format": "长文章",
+        "source_hub_id": "hub_b9fe713c922e_20260228"
+      },
+      "quality_check": {
+        "has_opening": true,
+        "has_insight": true,
+        "has_case": true,
+        "has_summary": true,
+        "has_cta": true,
+        "logic_coherent": true,
+        "tone_consistent": true,
+        "risk_level": "safe"
+      },
+      "created_at": "2026-02-28T17:02:14.356137"
+    }
+  ]
+}

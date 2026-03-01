@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "hub_id": "HUB_20260228_163205",
+    "parsed_at": "2026-02-28T16:32:05.708999",
+    "parser_version": "1.0",
+    "content_length": 93,
+    "estimated_reading_time_minutes": 0
+  },
+  "raw_content": "\n    这是一篇示例Hub文章。\n    实际使用时，请将真实的Hub文章内容传入parse_hub方法。\n    系统将自动提取观点、金句、案例、框架、冲突点等结构化组件。\n    ",
+  "components": {
+    "viewpoints": [
+      {
+        "id": "17810851-76a8-4d57-a268-9fd3af014ed1",
+        "content": "观点将从Hub文章中提取",
+        "confidence": 0.8,
+        "supporting_evidence": "待补充"
+      }
+    ],
+    "golden_sentences": [
+      {
+        "id": "e46adcec-33c7-47c0-845e-12ce58aaa9a4",
+        "content": "金句将从Hub文章中提取",
+        "context": "待补充",
+        "memorability": "high"
+      }
+    ],
+    "cases": [
+      {
+        "id": "8d4654ec-ab87-42a4-ac60-6726676e0734",
+        "title": "案例标题",
+        "description": "案例将从Hub文章中提取",
+        "key_insight": "待补充",
+        "applicable_scenarios": []
+      }
+    ],
+    "frameworks": [
+      {
+        "id": "c21fbc73-4a52-4803-b532-708553f8dcbc",
+        "name": "框架名称",
+        "description": "框架将从Hub文章中提取",
+        "components": [],
+        "visualization": "待补充"
+      }
+    ],
+    "conflict_points": [
+      {
+        "id": "258f7e58-8f5a-4c16-baa2-a6d7e7ad3394",
+        "conflict": "冲突点将从Hub文章中提取",
+        "common_misconception": "待补充",
+        "truth": "待补充",
+        "impact": "high"
+      }
+    ],
+    "action_items": [
+      {
+        "id": "c126c0c6-8597-4040-82cb-f2b5ae1c45fd",
+        "action": "行动项将从Hub文章中提取",
+        "priority": "high",
+        "timeline": "待补充"
+      }
+    ],
+    "keywords": [
+      "待提取"
+    ],
+    "target_audience": {
+      "primary": "待识别",
+      "secondary": "待识别",
+      "pain_points": [],
+      "aspirations": []
+    }
+  },
+  "quality_metrics": {
+    "component_count": 7,
+    "coverage_score": 0,
+    "completeness": "待评估"
+  }
+}

@@ -1,0 +1,1333 @@
+{
+  "components": {
+    "viewpoints": {
+      "comp_585fef2dc59b868c": {
+        "content": "创始人面临的最大挑战并非资金匮乏，而是认知错配。",
+        "confidence": 0.95,
+        "supporting_evidence": "错误的认知配上充足的资本，只会加速企业的灭亡。",
+        "id": "comp_585fef2dc59b868c",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360564"
+      },
+      "comp_c38220ca45829f78": {
+        "content": "拿到融资并非成功的标志，而是放大了创始人现有认知的结果。",
+        "confidence": 0.9,
+        "supporting_evidence": "我们普遍认为，拿到融资是成功的标志，但实际上，这仅仅是放大了创始人现有认知的结果。",
+        "id": "comp_c38220ca45829f78",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360569"
+      },
+      "comp_f16f9ddac2ef69b3": {
+        "content": "成功的创始人往往不是最会融资的，而是最懂克制的。",
+        "confidence": 0.95,
+        "supporting_evidence": "我服务超过50位创始人后发现，那些最终成功的，往往不是最会融资的，而是最懂克制的。",
+        "id": "comp_f16f9ddac2ef69b3",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360571"
+      },
+      "comp_c2ce260b3c3b3343": {
+        "content": "“克制型增长”模型是穿越周期的核心。",
+        "confidence": 0.9,
+        "supporting_evidence": "这套“克制型增长”模型，是穿越周期的核心。",
+        "id": "comp_c2ce260b3c3b3343",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360574"
+      },
+      "comp_a4d970cdcda1516e": {
+        "content": "没有认知地基，再高的资本大厦也终将倾覆。",
+        "confidence": 0.95,
+        "supporting_evidence": "毕竟，没有认知地基，再高的资本大厦也终将倾覆。",
+        "id": "comp_a4d970cdcda1516e",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360576"
+      },
+      "comp_696b12c8f99a7f89": {
+        "content": "错误的认知与充足的资本结合，会加速企业灭亡。",
+        "confidence": 0.9,
+        "supporting_evidence": "一个残酷的真相是，错误的认知配上充足的资本，只会加速企业的灭亡。",
+        "id": "comp_696b12c8f99a7f89",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360578"
+      }
+    },
+    "golden_sentences": {
+      "comp_828a3415bab0159c": {
+        "content": "在当今的商业环境中，创始人面临的最大挑战并非资金匮乏，而是认知错配。",
+        "context": "文章开篇点明核心论点",
+        "id": "comp_828a3415bab0159c",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360587"
+      },
+      "comp_1327e6b798e2f548": {
+        "content": "一个残酷的真相是，错误的认知配上充足的资本，只会加速企业的灭亡。",
+        "context": "强调认知重要性的论据",
+        "id": "comp_1327e6b798e2f548",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360590"
+      },
+      "comp_ee1fe286e6ff7831": {
+        "content": "那些最终成功的，往往不是最会融资的，而是最懂克制的。",
+        "context": "总结成功创始人的特质",
+        "id": "comp_ee1fe286e6ff7831",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360592"
+      },
+      "comp_9ad4e8bda2a9c26d": {
+        "content": "他们遵循一个简单的框架：认知-战略-执行。",
+        "context": "介绍成功创始人的方法论",
+        "id": "comp_9ad4e8bda2a9c26d",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360599"
+      },
+      "comp_410f1ad9b2b757c9": {
+        "content": "在认知层面，他们不断打破信息茧房；在战略层面，他们聚焦于单点突破；在执行层面，他们追求极致的效率。",
+        "context": "详细阐述成功创始人的方法论",
+        "id": "comp_410f1ad9b2b757c9",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360601"
+      },
+      "comp_bbf32ca05313df2e": {
+        "content": "这套“克制型增长”模型，是穿越周期的核心。",
+        "context": "总结并命名核心模型",
+        "id": "comp_bbf32ca05313df2e",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360603"
+      },
+      "comp_baa69dbf23a6c431": {
+        "content": "如果你还在为融资焦虑，不妨先问问自己：我的认知，配得上这笔钱吗？",
+        "context": "向读者提出反思性问题",
+        "id": "comp_baa69dbf23a6c431",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360605"
+      },
+      "comp_f945aed8043a5623": {
+        "content": "毕竟，没有认知地基，再高的资本大厦也终将倾覆。",
+        "context": "再次强调认知基础的重要性",
+        "id": "comp_f945aed8043a5623",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360607"
+      },
+      "comp_8a57f12f9846090c": {
+        "content": "我们普遍认为，拿到融资是成功的标志，但实际上，这仅仅是放大了创始人现有认知的结果。",
+        "context": "揭示普遍误解",
+        "id": "comp_8a57f12f9846090c",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360609"
+      },
+      "comp_0153e0e3a573471c": {
+        "content": "我把这套完整的模型整理成了一份文档，包含了详细的案例和执行清单，在我的公众号里可以找到。",
+        "context": "提供进一步学习的途径",
+        "id": "comp_0153e0e3a573471c",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360611"
+      }
+    },
+    "cases": {
+      "e3b0c44298fc1c14": {
+        "title": "“克制型增长”模型实践案例",
+        "description": "文章提到成功的创始人通过在认知层面打破信息茧房、战略层面聚焦单点突破、执行层面追求极致效率来实践“克制型增长”。",
+        "key_insight": "克制型增长是一种系统性的方法论，要求在多个层面进行自我约束和优化，以实现可持续发展。",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360637"
+      }
+    },
+    "frameworks": {
+      "e3b0c44298fc1c14": {
+        "name": "克制型增长模型",
+        "description": "一套帮助创始人穿越周期、实现可持续增长的方法论，强调在认知、战略和执行层面的克制与聚焦。",
+        "components": [
+          "认知：不断打破信息茧房",
+          "战略：聚焦于单点突破",
+          "执行：追求极致的效率"
+        ],
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360641"
+      }
+    },
+    "conflict_points": {
+      "e3b0c44298fc1c14": {
+        "conflict": "企业失败的原因",
+        "common_misconception": "缺乏资金",
+        "truth": "错误的认知配上充足的资本，加速企业灭亡",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360654"
+      }
+    },
+    "action_items": {
+      "e3b0c44298fc1c14": {
+        "action": "查阅作者公众号中关于“克制型增长”模型的完整文档，学习详细案例和执行清单。",
+        "priority": "low",
+        "hub_id": "hub_b9fe713c922e_20260228",
+        "usage_count": 0,
+        "score": 3,
+        "last_seen_at": "2026-02-28T17:02:14.360670"
+      }
+    },
+    "keywords": {},
+    "target_audience": {
+      "primary": "创业公司创始人",
+      "secondary": "企业高管、投资者、商业策略师",
+      "pain_points": [
+        "融资困难或融资后发展不顺",
+        "对企业增长模式感到困惑",
+        "在商业决策中面临挑战",
+        "对市场周期性变化感到焦虑"
+      ],
+      "aspirations": [
+        "实现企业可持续增长",
+        "提升个人商业认知水平",
+        "找到穿越经济周期的有效方法",
+        "避免企业因认知错误而失败"
+      ]
+    }
+  },
+  "hooks": {
+    "06afb888-b81d-4aea-8f4b-ace50526ac52": {
+      "id": "06afb888-b81d-4aea-8f4b-ace50526ac52",
+      "category": "反常识",
+      "content": "反常识类钩子 #1",
+      "template": "为什么{subject}都{misconception}，其实{truth}",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "strength": 4,
+      "risk_level": "safe",
+      "usage_count": 0,
+      "created_at": "2026-02-28T17:02:14.354916",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360679"
+    },
+    "0d4c6b5c-0b90-4b34-90c0-cd7973344418": {
+      "id": "0d4c6b5c-0b90-4b34-90c0-cd7973344418",
+      "category": "对立",
+      "content": "对立类钩子 #1",
+      "template": "你以为{assumption}，其实{reality}",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "strength": 4,
+      "risk_level": "safe",
+      "usage_count": 0,
+      "created_at": "2026-02-28T17:02:14.354937",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360685"
+    },
+    "87826fe9-efb2-4c45-bfc2-cf0b17789d7c": {
+      "id": "87826fe9-efb2-4c45-bfc2-cf0b17789d7c",
+      "category": "悬念",
+      "content": "悬念类钩子 #1",
+      "template": "我研究多个案例后，发现一个残酷真相",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "strength": 4,
+      "risk_level": "safe",
+      "usage_count": 0,
+      "created_at": "2026-02-28T17:02:14.354947",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360689"
+    },
+    "5da826a3-bbd6-4064-ad3f-dc0d6bb896dd": {
+      "id": "5da826a3-bbd6-4064-ad3f-dc0d6bb896dd",
+      "category": "结果",
+      "content": "结果类钩子 #1",
+      "template": "真正{success}的{subject}，都做对了一件事",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "strength": 4,
+      "risk_level": "safe",
+      "usage_count": 0,
+      "created_at": "2026-02-28T17:02:14.354954",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360692"
+    },
+    "1b3a6591-cdaf-456e-8574-25c3b81ef299": {
+      "id": "1b3a6591-cdaf-456e-8574-25c3b81ef299",
+      "category": "代价",
+      "content": "代价类钩子 #1",
+      "template": "没有{requirement}，你的{goal}毫无价值",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "strength": 4,
+      "risk_level": "safe",
+      "usage_count": 0,
+      "created_at": "2026-02-28T17:02:14.354965",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360694"
+    },
+    "788ac0af-b8a3-414d-b3e2-c4b41fb70a42": {
+      "id": "788ac0af-b8a3-414d-b3e2-c4b41fb70a42",
+      "category": "身份",
+      "content": "身份类钩子 #1",
+      "template": "{identity}的我，看待{topic}的角度可能和你不一样",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "strength": 4,
+      "risk_level": "safe",
+      "usage_count": 0,
+      "created_at": "2026-02-28T17:02:14.354975",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360698"
+    }
+  },
+  "anchors": {
+    "a546bafa-4819-4f14-8227-aeedac24fa90": {
+      "id": "a546bafa-4819-4f14-8227-aeedac24fa90",
+      "category": "经验锚",
+      "version": "short",
+      "content": "经验锚-short版本",
+      "template": "我{action}过{number}个{subject}后发现",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.354983",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360703"
+    },
+    "73bec5a0-1c45-4048-afe3-e96fcf72b347": {
+      "id": "73bec5a0-1c45-4048-afe3-e96fcf72b347",
+      "category": "经验锚",
+      "version": "medium",
+      "content": "经验锚-medium版本",
+      "template": "我{action}过{number}个{subject}后发现",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.354989",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360705"
+    },
+    "08276f34-f6b3-46fe-a93d-703e0170d0f3": {
+      "id": "08276f34-f6b3-46fe-a93d-703e0170d0f3",
+      "category": "经验锚",
+      "version": "long",
+      "content": "经验锚-long版本",
+      "template": "我{action}过{number}个{subject}后发现",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.354994",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360707"
+    },
+    "7bfa7008-b282-4c16-b800-97a02ce46937": {
+      "id": "7bfa7008-b282-4c16-b800-97a02ce46937",
+      "category": "方法锚",
+      "version": "short",
+      "content": "方法锚-short版本",
+      "template": "这套{method}在我的{number}个{context}里都验证过",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355001",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360709"
+    },
+    "e3b8c428-b4ea-435a-af26-5744f7c5d071": {
+      "id": "e3b8c428-b4ea-435a-af26-5744f7c5d071",
+      "category": "方法锚",
+      "version": "medium",
+      "content": "方法锚-medium版本",
+      "template": "这套{method}在我的{number}个{context}里都验证过",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355006",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360711"
+    },
+    "f721a58f-fa48-4ce6-a553-20a24ca0aa3a": {
+      "id": "f721a58f-fa48-4ce6-a553-20a24ca0aa3a",
+      "category": "方法锚",
+      "version": "long",
+      "content": "方法锚-long版本",
+      "template": "这套{method}在我的{number}个{context}里都验证过",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355011",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360712"
+    },
+    "7af091c5-b372-4d29-9a33-896806d2f5eb": {
+      "id": "7af091c5-b372-4d29-9a33-896806d2f5eb",
+      "category": "证据锚",
+      "version": "short",
+      "content": "证据锚-short版本",
+      "template": "根据{source}数据，{insight}",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355018",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360714"
+    },
+    "0a130ac4-6992-42f9-8433-4b8820444642": {
+      "id": "0a130ac4-6992-42f9-8433-4b8820444642",
+      "category": "证据锚",
+      "version": "medium",
+      "content": "证据锚-medium版本",
+      "template": "根据{source}数据，{insight}",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355024",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360716"
+    },
+    "e89609c6-f1a7-4e83-9468-f38e3f2b0b21": {
+      "id": "e89609c6-f1a7-4e83-9468-f38e3f2b0b21",
+      "category": "证据锚",
+      "version": "long",
+      "content": "证据锚-long版本",
+      "template": "根据{source}数据，{insight}",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "credibility_score": 4.5,
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355029",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360718"
+    }
+  },
+  "ctas": {
+    "5a2490d3-686e-4e48-870a-23b8b4938742": {
+      "id": "5a2490d3-686e-4e48-870a-23b8b4938742",
+      "level": "轻引流",
+      "content": "轻引流CTA #1",
+      "template": "完整版在{platform} / 我把这套{content}整理成了文档",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "medium",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355037",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360724"
+    },
+    "55b09ab0-9687-4cbb-a2cc-642331289086": {
+      "id": "55b09ab0-9687-4cbb-a2cc-642331289086",
+      "level": "轻引流",
+      "content": "轻引流CTA #2",
+      "template": "完整版在{platform} / 我把这套{content}整理成了文档",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "medium",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355043",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360726"
+    },
+    "e1c265e0-04ef-4833-90de-5aca89d93b0b": {
+      "id": "e1c265e0-04ef-4833-90de-5aca89d93b0b",
+      "level": "轻引流",
+      "content": "轻引流CTA #3",
+      "template": "完整版在{platform} / 我把这套{content}整理成了文档",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "medium",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355060",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360728"
+    },
+    "c7f979f2-d010-4c31-a03a-f1dcdb3421ed": {
+      "id": "c7f979f2-d010-4c31-a03a-f1dcdb3421ed",
+      "level": "中引流",
+      "content": "中引流CTA #1",
+      "template": "评论{keyword}领{resource} / 私信我领{resource}",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "medium-high",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355068",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360730"
+    },
+    "e60f1e4a-9509-45f7-8312-bc81e3f053cf": {
+      "id": "e60f1e4a-9509-45f7-8312-bc81e3f053cf",
+      "level": "中引流",
+      "content": "中引流CTA #2",
+      "template": "评论{keyword}领{resource} / 私信我领{resource}",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "medium-high",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355074",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360732"
+    },
+    "95276f1f-ce43-4f1a-8d59-658475a4b0c0": {
+      "id": "95276f1f-ce43-4f1a-8d59-658475a4b0c0",
+      "level": "中引流",
+      "content": "中引流CTA #3",
+      "template": "评论{keyword}领{resource} / 私信我领{resource}",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "medium-high",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355079",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360734"
+    },
+    "2abe3420-7f91-44d4-81ad-40cc65c50e79": {
+      "id": "2abe3420-7f91-44d4-81ad-40cc65c50e79",
+      "level": "重引流",
+      "content": "重引流CTA #1",
+      "template": "如果你想{goal}，欢迎{action} / 预约{duration}的咨询",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "high",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355087",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360736"
+    },
+    "a8fa3c91-f366-4b3c-997d-93f44853c068": {
+      "id": "a8fa3c91-f366-4b3c-997d-93f44853c068",
+      "level": "重引流",
+      "content": "重引流CTA #2",
+      "template": "如果你想{goal}，欢迎{action} / 预约{duration}的咨询",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "high",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355093",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360738"
+    },
+    "3bea13f2-c169-467f-a9fd-e33656badfc1": {
+      "id": "3bea13f2-c169-467f-a9fd-e33656badfc1",
+      "level": "重引流",
+      "content": "重引流CTA #3",
+      "template": "如果你想{goal}，欢迎{action} / 预约{duration}的咨询",
+      "applicable_platforms": [
+        "video_number",
+        "xiaohongshu",
+        "wechat_official"
+      ],
+      "applicable_content_types": [
+        "framework",
+        "case_study",
+        "insight"
+      ],
+      "conversion_expectation": "high",
+      "risk_level": "safe",
+      "created_at": "2026-02-28T17:02:14.355098",
+      "hub_id": "hub_b9fe713c922e_20260228",
+      "usage_count": 0,
+      "score": 3,
+      "last_seen_at": "2026-02-28T17:02:14.360740"
+    }
+  },
+  "metadata": {
+    "last_updated": "2026-02-28T17:02:14.360742"
+  },
+  "comp_8cc16c75fe421d33": {
+    "id": "comp_8cc16c75fe421d33",
+    "type": "viewpoints",
+    "content": "大多数创始人在融资时，将融资视为目标而非工具，这是90%融资失败的根本原因。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.196175",
+    "last_used_at": "2026-03-01T05:02:22.196177",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_3d1078ef1187e9fb": {
+    "id": "comp_3d1078ef1187e9fb",
+    "type": "viewpoints",
+    "content": "融资并非越多越好，过多的资金会掩盖商业模式缺陷，降低团队对成本的敏感性。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.197276",
+    "last_used_at": "2026-03-01T05:02:22.197282",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_7932b14e2f94dc7c": {
+    "id": "comp_7932b14e2f94dc7c",
+    "type": "viewpoints",
+    "content": "高估值是一把双刃剑，它带来高预期压力和退出难度，而非单纯的成功标志。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.198443",
+    "last_used_at": "2026-03-01T05:02:22.198449",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_23e6695a6c4b6443": {
+    "id": "comp_23e6695a6c4b6443",
+    "type": "viewpoints",
+    "content": "投资人是股东而非合伙人，创始人应保持清晰的边界感，避免过度依赖投资人建议而失去判断力。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.199441",
+    "last_used_at": "2026-03-01T05:02:22.199446",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_96e4de619683256c": {
+    "id": "comp_96e4de619683256c",
+    "type": "viewpoints",
+    "content": "融资决策应基于时间、稀释和战略三个维度进行全面考量，而非单一因素。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.200517",
+    "last_used_at": "2026-03-01T05:02:22.200522",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_0c6a14a1a5b0be0b": {
+    "id": "comp_0c6a14a1a5b0be0b",
+    "type": "viewpoints",
+    "content": "真正的融资逻辑是：融够支撑你到下一个里程碑的钱，多一分都是负担。",
+    "usage_count": 2,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.201593",
+    "last_used_at": "2026-03-01T05:02:22.207790",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_038cf368d9302a95": {
+    "id": "comp_038cf368d9302a95",
+    "type": "golden_sentences",
+    "content": "大多数创始人在融资时，都在用错误的逻辑做正确的事。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.202621",
+    "last_used_at": "2026-03-01T05:02:22.202626",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_8b682e6c1cef4967": {
+    "id": "comp_8b682e6c1cef4967",
+    "type": "golden_sentences",
+    "content": "他们把融资当成\"目标\"，而不是\"工具\"。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.203751",
+    "last_used_at": "2026-03-01T05:02:22.203758",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_3778be7cff2fe3da": {
+    "id": "comp_3778be7cff2fe3da",
+    "type": "golden_sentences",
+    "content": "这个认知错位，是90%融资失败的根本原因。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.205165",
+    "last_used_at": "2026-03-01T05:02:22.205171",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_f03405b79159d48c": {
+    "id": "comp_f03405b79159d48c",
+    "type": "golden_sentences",
+    "content": "过多的资金会掩盖商业模式的缺陷，让团队失去对成本的敏感性。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.206419",
+    "last_used_at": "2026-03-01T05:02:22.206424",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_b987e75249c4b44b": {
+    "id": "comp_b987e75249c4b44b",
+    "type": "golden_sentences",
+    "content": "高估值是一把双刃剑。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.209099",
+    "last_used_at": "2026-03-01T05:02:22.209104",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_d3cb3819a38f9bf8": {
+    "id": "comp_d3cb3819a38f9bf8",
+    "type": "golden_sentences",
+    "content": "聪明的创始人会在估值和融资条款之间找到平衡点，而不是一味追求高估值。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.210254",
+    "last_used_at": "2026-03-01T05:02:22.210258",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_3394f28481ff3cb1": {
+    "id": "comp_3394f28481ff3cb1",
+    "type": "golden_sentences",
+    "content": "投资人不是合伙人，他们是股东。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.211337",
+    "last_used_at": "2026-03-01T05:02:22.211342",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_ca795360f9d3cc5e": {
+    "id": "comp_ca795360f9d3cc5e",
+    "type": "golden_sentences",
+    "content": "当你把投资人当合伙人时，你会对他们的每一个建议都过度反应，最终失去自己的判断力。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.212427",
+    "last_used_at": "2026-03-01T05:02:22.212432",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_16ef1c1120522759": {
+    "id": "comp_16ef1c1120522759",
+    "type": "golden_sentences",
+    "content": "最好的创始人-投资人关系，是清晰的边界感：你负责执行，他们负责资源对接。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.213609",
+    "last_used_at": "2026-03-01T05:02:22.213615",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "comp_6e164d65d026d6e5": {
+    "id": "comp_6e164d65d026d6e5",
+    "type": "golden_sentences",
+    "content": "只有三个维度都通过检验，这笔融资才值得做。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:22.214861",
+    "last_used_at": "2026-03-01T05:02:22.214866",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "08cd90de2eeaa82c": {
+    "id": "08cd90de2eeaa82c",
+    "type": "viewpoints",
+    "content": "大多数创始人在融资时，将融资视为目标而非工具，这是90%融资失败的根本原因。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.078836",
+    "last_used_at": "2026-03-01T05:02:51.078839",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "e9e6e0f34927eca7": {
+    "id": "e9e6e0f34927eca7",
+    "type": "viewpoints",
+    "content": "过多的资金会掩盖商业模式缺陷，并降低团队对成本的敏感性。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.080214",
+    "last_used_at": "2026-03-01T05:02:51.080221",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "9d323e28d541114d": {
+    "id": "9d323e28d541114d",
+    "type": "viewpoints",
+    "content": "高估值带来指数级的增长压力和退出难度，而非线性增长。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.081572",
+    "last_used_at": "2026-03-01T05:02:51.081578",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "61c06d876bc6e524": {
+    "id": "61c06d876bc6e524",
+    "type": "viewpoints",
+    "content": "投资人是股东，关心回报；合伙人关心公司。混淆二者会导致创始人失去判断力。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.082888",
+    "last_used_at": "2026-03-01T05:02:51.082893",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "d0744521a080180c": {
+    "id": "d0744521a080180c",
+    "type": "viewpoints",
+    "content": "融资决策应综合考虑时间、稀释和战略三个维度，而非单一因素。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.084449",
+    "last_used_at": "2026-03-01T05:02:51.084454",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "dd05cb572d8b5aed": {
+    "id": "dd05cb572d8b5aed",
+    "type": "viewpoints",
+    "content": "真正的融资逻辑是融够支撑到下一个里程碑的钱，多一分都是负担。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.085789",
+    "last_used_at": "2026-03-01T05:02:51.085794",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "0227fb343967b0ad": {
+    "id": "0227fb343967b0ad",
+    "type": "golden_sentences",
+    "content": "大多数创始人在融资时，都在用错误的逻辑做正确的事。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.087269",
+    "last_used_at": "2026-03-01T05:02:51.087276",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "4d60e7172ff84ffd": {
+    "id": "4d60e7172ff84ffd",
+    "type": "golden_sentences",
+    "content": "他们把融资当成\"目标\"，而不是\"工具\"。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.088731",
+    "last_used_at": "2026-03-01T05:02:51.088737",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "de8c700e59655473": {
+    "id": "de8c700e59655473",
+    "type": "golden_sentences",
+    "content": "这个认知错位，是90%融资失败的根本原因。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.090125",
+    "last_used_at": "2026-03-01T05:02:51.090130",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "1ab6c3e75527396e": {
+    "id": "1ab6c3e75527396e",
+    "type": "golden_sentences",
+    "content": "过多的资金会掩盖商业模式的缺陷，让团队失去对成本的敏感性。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.091481",
+    "last_used_at": "2026-03-01T05:02:51.091487",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "f45eb95c781afe31": {
+    "id": "f45eb95c781afe31",
+    "type": "golden_sentences",
+    "content": "真正的融资逻辑是：融够支撑你到下一个里程碑的钱，多一分都是负担。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.093830",
+    "last_used_at": "2026-03-01T05:02:51.093836",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "68a70a7bff5c0234": {
+    "id": "68a70a7bff5c0234",
+    "type": "golden_sentences",
+    "content": "高估值是一把双刃剑。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.095278",
+    "last_used_at": "2026-03-01T05:02:51.095284",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "07bff7a98cf91faa": {
+    "id": "07bff7a98cf91faa",
+    "type": "golden_sentences",
+    "content": "聪明的创始人会在估值和融资条款之间找到平衡点，而不是一味追求高估值。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.096735",
+    "last_used_at": "2026-03-01T05:02:51.096740",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "c59f6fa0769141aa": {
+    "id": "c59f6fa0769141aa",
+    "type": "golden_sentences",
+    "content": "投资人不是合伙人，他们是股东。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.098069",
+    "last_used_at": "2026-03-01T05:02:51.098074",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "f11c018edd3f00f3": {
+    "id": "f11c018edd3f00f3",
+    "type": "golden_sentences",
+    "content": "当你把投资人当合伙人时，你会对他们的每一个建议都过度反应，最终失去自己的判断力。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.099452",
+    "last_used_at": "2026-03-01T05:02:51.099459",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "f02bc666ec5e547f": {
+    "id": "f02bc666ec5e547f",
+    "type": "golden_sentences",
+    "content": "最好的创始人-投资人关系，是清晰的边界感：你负责执行，他们负责资源对接。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.100892",
+    "last_used_at": "2026-03-01T05:02:51.100897",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "291e87ecef2439a8": {
+    "id": "291e87ecef2439a8",
+    "type": "golden_sentences",
+    "content": "只有三个维度都通过检验，这笔融资才值得做。",
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.102305",
+    "last_used_at": "2026-03-01T05:02:51.102311",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "505f963665589fab": {
+    "id": "505f963665589fab",
+    "type": "cases",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.103868",
+    "last_used_at": "2026-03-01T05:02:51.103874",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "109ce51346a04bae": {
+    "id": "109ce51346a04bae",
+    "type": "frameworks",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.105438",
+    "last_used_at": "2026-03-01T05:02:51.105444",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "833e54f21003a08d": {
+    "id": "833e54f21003a08d",
+    "type": "conflict_points",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.107111",
+    "last_used_at": "2026-03-01T05:02:51.107116",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "bd5f238eb54038fc": {
+    "id": "bd5f238eb54038fc",
+    "type": "conflict_points",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.108732",
+    "last_used_at": "2026-03-01T05:02:51.108738",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "236fd856c3fef489": {
+    "id": "236fd856c3fef489",
+    "type": "conflict_points",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.110325",
+    "last_used_at": "2026-03-01T05:02:51.110330",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "f62e2405d81cc624": {
+    "id": "f62e2405d81cc624",
+    "type": "conflict_points",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.111935",
+    "last_used_at": "2026-03-01T05:02:51.111941",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "a804a4423828c6ee": {
+    "id": "a804a4423828c6ee",
+    "type": "action_items",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.113594",
+    "last_used_at": "2026-03-01T05:02:51.113599",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "ca9cbfa61e46b102": {
+    "id": "ca9cbfa61e46b102",
+    "type": "action_items",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.115181",
+    "last_used_at": "2026-03-01T05:02:51.115187",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "2b6ab77066d16cd6": {
+    "id": "2b6ab77066d16cd6",
+    "type": "action_items",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.116811",
+    "last_used_at": "2026-03-01T05:02:51.116816",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "c841e8db061e135c": {
+    "id": "c841e8db061e135c",
+    "type": "action_items",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.118672",
+    "last_used_at": "2026-03-01T05:02:51.118677",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  },
+  "1e0f59cc185e9c59": {
+    "id": "1e0f59cc185e9c59",
+    "type": "action_items",
+    "content": null,
+    "usage_count": 1,
+    "score": 50,
+    "risk_level": "low",
+    "platform_tags": [
+      "general"
+    ],
+    "created_at": "2026-03-01T05:02:51.120346",
+    "last_used_at": "2026-03-01T05:02:51.120352",
+    "source_hub_id": "hub_5dcd1900c4cb_20260301"
+  }
+}

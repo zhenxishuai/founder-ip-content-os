@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "hub_id": "hub_融资策略_20260301",
+    "parsed_at": "2026-02-28T16:35:00.151740",
+    "parser_version": "1.0",
+    "content_length": 43,
+    "estimated_reading_time_minutes": 0
+  },
+  "raw_content": "这是关于融资策略的Hub长文。系统将基于此文，自动完成拆解、生成、质检、排期全流程。\n",
+  "components": {
+    "viewpoints": [
+      {
+        "id": "50cc61d7-caea-47cb-a3b6-89ca5fb2b96a",
+        "content": "观点将从Hub文章中提取",
+        "confidence": 0.8,
+        "supporting_evidence": "待补充"
+      }
+    ],
+    "golden_sentences": [
+      {
+        "id": "fc686413-d051-4bd6-94bb-3e9fa2ce759c",
+        "content": "金句将从Hub文章中提取",
+        "context": "待补充",
+        "memorability": "high"
+      }
+    ],
+    "cases": [
+      {
+        "id": "8e6bafa1-13d8-4441-8541-f2bbb70511cb",
+        "title": "案例标题",
+        "description": "案例将从Hub文章中提取",
+        "key_insight": "待补充",
+        "applicable_scenarios": []
+      }
+    ],
+    "frameworks": [
+      {
+        "id": "3a7e9974-a321-4d75-b2b5-5153f2470c2d",
+        "name": "框架名称",
+        "description": "框架将从Hub文章中提取",
+        "components": [],
+        "visualization": "待补充"
+      }
+    ],
+    "conflict_points": [
+      {
+        "id": "fafd9852-9f93-4c52-9bee-27cec2d9643e",
+        "conflict": "冲突点将从Hub文章中提取",
+        "common_misconception": "待补充",
+        "truth": "待补充",
+        "impact": "high"
+      }
+    ],
+    "action_items": [
+      {
+        "id": "5b3dc584-ceeb-4b29-a487-ae3519267aea",
+        "action": "行动项将从Hub文章中提取",
+        "priority": "high",
+        "timeline": "待补充"
+      }
+    ],
+    "keywords": [
+      "待提取"
+    ],
+    "target_audience": {
+      "primary": "待识别",
+      "secondary": "待识别",
+      "pain_points": [],
+      "aspirations": []
+    }
+  },
+  "quality_metrics": {
+    "component_count": 7,
+    "coverage_score": 0,
+    "completeness": "待评估"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "event_id": "trend_9c9943345d53",
+    "title": "国内首个Sora级视频生成模型Vidu发布，由生数科技与清华大学联合研发",
+    "summary": "在2024中关村论坛年会未来人工智能先锋论坛上，生数科技联合清华大学正式发布中国首个长时长、高一致性、高动态性的Sora级视频大模型Vidu。",
+    "source": "https://www.thepaper.cn/newsDetail_forward_27189898",
+    "heat_score": 95,
+    "timestamp": "2026-02-28T17:23:18.682035"
+  },
+  {
+    "event_id": "trend_95dfe0b5d074",
+    "title": "苹果据悉与OpenAI重启谈判，计划为iPhone引入生成式AI功能",
+    "summary": "据知情人士透露，苹果公司已重新启动与OpenAI的谈判，讨论使用这家初创公司的技术为今年晚些时候推出的iPhone的一些新功能提供支持。",
+    "source": "https://www.bloomberg.com/news/articles/2024-04-26/apple-restarts-talks-with-openai-for-iphone-generative-ai-features",
+    "heat_score": 90,
+    "timestamp": "2026-02-28T17:23:18.682066"
+  },
+  {
+    "event_id": "trend_1f1b7b281f0b",
+    "title": "特斯拉宣布将推出更便宜车型，加速新品推出步伐",
+    "summary": "特斯拉周二表示，将加快推出更实惠的车型，此前该公司公布的季度营收低于预期，但股价在盘后交易中上涨，因为该公司试图安抚投资者。",
+    "source": "https://www.reuters.com/business/autos-transportation/tesla-speeds-up-launch-new-vehicles-2024-04-23/",
+    "heat_score": 85,
+    "timestamp": "2026-02-28T17:23:18.682072"
+  }
+]

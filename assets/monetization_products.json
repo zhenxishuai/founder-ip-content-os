@@ -1,0 +1,33 @@
+{
+    "products": [
+        {
+            "product_id": "course_ai_writing",
+            "name": "AI写作大师课",
+            "keywords": [
+                "AI写作",
+                "内容创作",
+                "效率"
+            ],
+            "target_audience": [
+                "自媒体人",
+                "内容创作者"
+            ],
+            "cta_suggestion": "想学习如何用AI每天生产10篇高质量文章吗？点击链接，了解我的《AI写作大师课》。"
+        },
+        {
+            "product_id": "consult_startup_growth",
+            "name": "初创公司增长咨询",
+            "keywords": [
+                "增长",
+                "创业",
+                "融资",
+                "商业模式"
+            ],
+            "target_audience": [
+                "创始人",
+                "创业者"
+            ],
+            "cta_suggestion": "正在为你的项目增长发愁吗？预约我的1对1咨询，帮你梳理增长策略。"
+        }
+    ]
+}
