@@ -1,250 +1,196 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Orchestrator - 总控Agent (V4.1 - 增长与变现操作系统)
-修复：显式导入、统一构造参数、QA回炉机制、真实排期CSV、TrendCrawler解耦
+Orchestrator - 总控Agent (V4.2 - 大纲驱动版)
 """
 
 import os
-import csv
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import List, Dict, Any
 
-# 显式导入所有Agent
-from .hub_parser_agent import HubParserAgent
-from .long_video_script_agent import LongVideoScriptAgent
-from .trend_crawler_agent import TrendCrawlerAgent
-from .trend_analyzer_agent import TrendAnalyzerAgent
-from .learning_agent import LearningAgent
-from .monetization_agent import MonetizationAgent
-from .asset_store import AssetStore
-from .qa_agent import QAAgent
-
+# 显式导入所有新版Agent
+from .outline_agent import OutlineAgent
+from .short_video_agent import ShortVideoAgent
+from .xiaohongshu_agent import XiaohongshuAgent
+from .wechat_agent import WeChatAgent
+from .moments_agent import MomentsAgent
 
 class OrchestratorAgent:
-    """V4.1总控Agent，负责调度所有子Agent，执行增长与变现工作流。"""
+    """V4.2总控Agent，负责调度所有子Agent，执行大纲驱动的内容生成工作流。"""
 
-    def __init__(self, root_path="/home/ubuntu/创始人IP系统/"):
+    def __init__(self, root_path="/home/ubuntu/founder-ip-content-os-full/"):
         self.agent_name = "OrchestratorAgent"
-        self.version = "4.1"
+        self.version = "4.2"
         self.root_path = root_path
         self.setup_directories()
 
-        # 实例化所有Agent，统一传入asset_path
-        self.hub_parser = HubParserAgent(asset_path=self.asset_path)
-        self.long_video_script_agent = LongVideoScriptAgent(asset_path=self.asset_path)
-        self.trend_crawler = TrendCrawlerAgent(asset_path=self.asset_path)
-        self.trend_analyzer = TrendAnalyzerAgent(asset_path=self.asset_path)
-        self.learning_agent = LearningAgent(asset_path=self.asset_path)
-        self.monetization_agent = MonetizationAgent(asset_path=self.asset_path)
-        self.asset_store = AssetStore(asset_path=self.asset_path)
-        self.qa_agent = QAAgent(asset_path=self.asset_path)
+        # 实例化所有Agent
+        self.outline_agent = OutlineAgent(root_path=self.root_path)
+        self.platform_agents = {
+            "短视频": ShortVideoAgent(),
+            "小红书": XiaohongshuAgent(),
+            "公众号": WeChatAgent(),
+            "朋友圈": MomentsAgent(),
+        }
 
     def setup_directories(self):
         """创建所有必需的目录。"""
         self.hub_path = os.path.join(self.root_path, "01_Hub文章")
         self.processed_hub_path = os.path.join(self.hub_path, "processed")
-        self.asset_path = os.path.join(self.root_path, "10_资产库")
         self.delivery_path = os.path.join(self.root_path, "13_交付包")
-        self.schedule_path = os.path.join(self.root_path, "09_排期表")
-        self.review_path = os.path.join(self.root_path, "14_需人工审核")
         os.makedirs(self.processed_hub_path, exist_ok=True)
-        os.makedirs(self.asset_path, exist_ok=True)
         os.makedirs(self.delivery_path, exist_ok=True)
-        os.makedirs(self.schedule_path, exist_ok=True)
-        os.makedirs(self.review_path, exist_ok=True)
 
-    def execute_full_workflow(self):
-        """执行完整的V4.1工作流。"""
-        print(f"🚀 OrchestratorAgent V{self.version} 开始执行增长与变现工作流...")
+    def execute_workflow(self, hub_filename: str):
+        """为指定的Hub文章执行完整的大纲驱动工作流。"""
+        print(f"🚀 OrchestratorAgent V{self.version} 开始为 {hub_filename} 执行工作流...")
 
-        # --- 1. 热点驱动工作流 ---
-        print("\n--- 1. 热点驱动工作流 ---")
-        # TrendCrawlerAgent只读取外部已写入的raw_trend_events.json，不再安装依赖
-        trend_processed = self.trend_crawler.process_raw_trends()
-        if trend_processed:
-            trend_events_path = os.path.join(self.asset_path, "trend_events.json")
-            trend_events = []
-            if os.path.exists(trend_events_path):
-                with open(trend_events_path, 'r', encoding='utf-8') as f:
-                    trend_events = json.load(f)
-            analyzed_angles = self.trend_analyzer.analyze_trends(trend_events) if trend_events else []
-            if analyzed_angles:
-                latest_angle = analyzed_angles[-1]
-                video_script = self.long_video_script_agent.generate_script(latest_angle, input_type="trend")
-                self._qa_and_save(video_script, source="trend_driven")
-        else:
-            print("  → 未检测到新热点，跳过热点驱动工作流。")
-
-        # --- 2. Hub驱动工作流 ---
-        print("\n--- 2. Hub驱动工作流 ---")
-        new_hubs = self._detect_new_hubs()
-        if not new_hubs:
-            print("  → 未检测到新Hub文章，跳过Hub驱动工作流。")
-        for hub_file in new_hubs:
-            print(f"  处理Hub文章: {hub_file}")
-            hub_content = self._read_hub_file(hub_file)
-            parsed_data = self.hub_parser.parse_hub(hub_content, hub_file)
-            if parsed_data:
-                # 将解析出的组件写入中央资产库（幂等upsert）
-                import hashlib
-                for comp_type, comp_list in parsed_data.get("components", {}).items():
-                    if isinstance(comp_list, list):
-                        for item in comp_list:
-                            if isinstance(item, dict):
-                                # 确保每个组件有唯一ID（基于内容哈希）
-                                content_str = json.dumps(item, ensure_ascii=False, sort_keys=True)
-                                item["id"] = hashlib.md5(content_str.encode()).hexdigest()[:16]
-                                item["source_hub_id"] = parsed_data["metadata"]["hub_id"]
-                                self.asset_store.upsert(item, comp_type)
-                # 生成视频脚本并走QA
-                video_script = self.long_video_script_agent.generate_script(parsed_data, input_type="hub")
-                self._qa_and_save(video_script, source="hub_driven", hub_file=hub_file)
-                # 标记Hub已处理（移动到processed目录）
-                self._mark_hub_processed(hub_file)
-
-        # --- 3. 学习回路 ---
-        print("\n--- 3. 学习回路 ---")
-        # LearningAgent需要metrics数据，此处为空跑（无metrics时跳过）
-        metrics_path = os.path.join(self.asset_path, "metrics.json")
-        if os.path.exists(metrics_path):
-            with open(metrics_path, 'r', encoding='utf-8') as f:
-                metrics_data = json.load(f)
-            self.learning_agent.learn_from_metrics(metrics_data, {})
-            print("  ✓ 学习回路执行完毕")
-        else:
-            print("  → 未找到metrics数据，跳过学习回路。")
-
-        # --- 4. 生成排期表 ---
-        print("\n--- 4. 生成排期表 ---")
-        self._generate_schedule()
-
-        print("\n✅ V4.1工作流执行完毕。")
-
-    def _qa_and_save(self, video_script: Dict[str, Any], source: str, hub_file: str = None):
-        """对脚本进行QA检查，最多回炉一次，不通过则进入人工审核队列。"""
-        if not video_script or video_script.get("error"):
-            print(f"  ✗ 脚本生成失败，跳过QA。")
+        # 1. 读取Hub文章内容
+        hub_content = self._read_hub_file(hub_filename)
+        if not hub_content:
+            print(f"✗ 无法读取Hub文章: {hub_filename}，工作流终止。")
             return
 
-        qa_result = self.qa_agent.quality_check(video_script, "video_long_script")
-        if not qa_result.get("rewrite_required"):
-            print(f"  ✓ QA通过")
-            self._process_and_save_script(video_script, source)
-        else:
-            print(f"  ✗ QA失败（问题: {qa_result.get('issues')}），触发回炉重写...")
-            # 回炉重写一次
-            video_script_retry = self.long_video_script_agent.generate_script(
-                {"qa_feedback": qa_result.get("issues")}, input_type="hub" if hub_file else "trend"
+        # 2. 生成内容大纲
+        print("  → 正在调用 OutlineAgent 生成内容大纲...")
+        outline_data = self.outline_agent.generate_outline(hub_content)
+        if "error" in outline_data:
+            print(f"✗ 生成大纲失败: {outline_data['error']}，工作流终止。")
+            return
+        
+        # 保存大纲文档
+        outline_filename = self._save_outline(outline_data, hub_filename)
+        print(f"  ✓ 内容大纲已生成并保存到: {outline_filename}")
+
+        # 3. 生成第一天的内容
+        print("\n  → 正在为第一天生成各平台内容...")
+        day_1_outline = next((item for item in outline_data.get("weekly_content_outline", []) if item.get("day") == 1), None)
+        
+        if not day_1_outline:
+            print("✗ 在大纲中未找到第一天的内容，无法继续生成。")
+            return
+
+        # 根据用户要求，每天生成 小红书、短视频、朋友圈，第1天额外生成公众号长文
+        platforms_to_generate = ["公众号", "小红书", "短视频", "朋友圈"]
+        day_1_content = {}
+
+        for platform_name in platforms_to_generate:
+            # 从大纲中找到第1天对应平台的条目
+            platform_outline_part = next(
+                (item for item in outline_data.get("weekly_content_outline", [])
+                 if item.get("day") == 1 and item.get("platform") == platform_name),
+                None
             )
-            if video_script_retry and not video_script_retry.get("error"):
-                qa_result_retry = self.qa_agent.quality_check(video_script_retry, "video_long_script")
-                if not qa_result_retry.get("rewrite_required"):
-                    print(f"  ✓ 回炉重写成功，QA通过")
-                    self._process_and_save_script(video_script_retry, source)
-                    return
-            # 两次均不通过，进入人工审核
-            print(f"  ✗ 回炉重写失败，标记为需人工审核")
-            review_path = os.path.join(self.review_path, f"review_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
-            with open(review_path, 'w', encoding='utf-8') as f:
-                json.dump({"script": video_script, "qa_issues": qa_result.get("issues")}, f, ensure_ascii=False, indent=2)
+            if not platform_outline_part:
+                print(f"  - 未在大纲中找到第1天平台 '{platform_name}' 的计划，跳过。")
+                continue
 
-    def _process_and_save_script(self, script: Dict[str, Any], source: str):
-        """调用MonetizationAgent优化CTA，然后保存脚本到交付包。"""
-        print(f"  正在处理脚本: {script.get('title', '无标题')}")
-        monetization_suggestion = self.monetization_agent.analyze_and_suggest(script)
-        script['monetization_cta'] = monetization_suggestion.get('suggestion', '')
+            agent = self.platform_agents.get(platform_name)
+            if agent:
+                print(f"    - 调用 {agent.agent_name} 生成 [{platform_name}] 内容...")
+                content = agent.generate_content(platform_outline_part, hub_content)
+                day_1_content[platform_name] = content
+                if "error" in content:
+                    print(f"    ✗ {agent.agent_name} 生成失败: {content['error']}")
+                else:
+                    print(f"    ✓ {agent.agent_name} 内容生成成功。")
+            else:
+                print(f"    - 未找到平台 '{platform_name}' 对应的Agent，跳过。")
 
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        script_id = f"{source}_{timestamp}_3min"
-        delivery_folder = os.path.join(self.delivery_path, script_id)
-        os.makedirs(delivery_folder, exist_ok=True)
-        script_path = os.path.join(delivery_folder, "video_script.json")
-        with open(script_path, 'w', encoding='utf-8') as f:
-            json.dump(script, f, ensure_ascii=False, indent=4)
-        print(f"  ✓ 脚本已保存到: {script_path}")
+        # 4. 保存第一天的内容
+        day_1_filename = self._save_day_1_content(day_1_content, hub_filename)
+        print(f"  ✓ 第一天内容已生成并保存到: {day_1_filename}")
 
-    def _detect_new_hubs(self) -> List[str]:
-        """检测01_Hub文章/目录下的新文章（排除processed子目录）。"""
-        return [
-            f for f in os.listdir(self.hub_path)
-            if os.path.isfile(os.path.join(self.hub_path, f))
-        ]
+        # 5. 标记Hub为已处理
+        self._mark_hub_processed(hub_filename)
+
+        print(f"\n✅ V{self.version} 工作流执行完毕。")
+        print(f"请查看交付目录: {self.delivery_path}")
 
     def _read_hub_file(self, filename: str) -> str:
         """读取Hub文章内容。"""
-        with open(os.path.join(self.hub_path, filename), 'r', encoding='utf-8') as f:
+        filepath = os.path.join(self.hub_path, filename)
+        if not os.path.exists(filepath):
+            return None
+        with open(filepath, 'r', encoding='utf-8') as f:
             return f.read()
 
+    def _save_outline(self, outline_data: Dict[str, Any], hub_filename: str) -> str:
+        """将JSON大纲格式化为Markdown并保存。"""
+        base_name = os.path.splitext(hub_filename)[0]
+        filename = os.path.join(self.delivery_path, f"{base_name}_一周内容大纲.md")
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(f"# 《{base_name}》一周内容大纲\n\n")
+            for day_plan in outline_data.get("weekly_content_outline", []):
+                f.write(f"## Day {day_plan['day']}: {day_plan['platform']} - {day_plan['theme']}\n\n")
+                if 'title_suggestion' in day_plan:
+                    f.write(f"**标题建议:** {day_plan['title_suggestion']}\n\n")
+                if 'content_structure' in day_plan:
+                    for section in day_plan['content_structure']:
+                        f.write(f"- **{section['section'].capitalize()}:** {section['key_point'] if 'key_point' in section else ', '.join(section.get('key_points', []))}\n")
+                if 'methods' in day_plan:
+                    for method in day_plan['methods']:
+                        f.write(f"- **方法{method['method_index']} ({method['method_name']}):** {method['key_point']}\n")
+                if 'key_points_by_section' in day_plan:
+                    for section, point in day_plan['key_points_by_section'].items():
+                        f.write(f"- **{section.capitalize()}:** {point}\n")
+                if 'key_point' in day_plan and 'platform' in day_plan and day_plan['platform'] == '朋友圈':
+                     f.write(f"- **核心文案:** {day_plan['key_point']}\n")
+                f.write("\n---\n\n")
+        return filename
+
+    def _save_day_1_content(self, day_1_content: Dict[str, Any], hub_filename: str) -> str:
+        """将第一天的所有生成内容保存到一个Markdown文件。"""
+        base_name = os.path.splitext(hub_filename)[0]
+        filename = os.path.join(self.delivery_path, f"{base_name}_第一天发布内容.md")
+
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(f"# 《{base_name}》第一天发布内容\n\n")
+            for platform, content in day_1_content.items():
+                f.write(f"## 平台: {platform}\n\n")
+                if "error" in content:
+                    f.write(f"**生成失败:** {content['error']}\n\n")
+                else:
+                    f.write(f"**标题:** {content.get('title', 'N/A')}\n\n")
+                    if 'body' in content:
+                        f.write(f"**正文:**\n{content['body']}\n\n")
+                    if 'script_body' in content:
+                        f.write(f"**脚本:**\n{content['script_body']}\n\n")
+                    if 'article_body' in content:
+                        f.write(f"**文章:**\n{content['article_body']}\n\n")
+                    if 'post_text' in content:
+                        f.write(f"**文案:**\n{content['post_text']}\n\n")
+                    if 'tags' in content:
+                        f.write(f"**标签:** {' '.join(content['tags'])}\n\n")
+                f.write("\n---\n\n")
+        return filename
+
     def _mark_hub_processed(self, filename: str):
-        """将处理过的Hub文章移动到processed目录，实现幂等性。"""
+        """将处理过的Hub文章移动到processed目录。"""
         src = os.path.join(self.hub_path, filename)
         dst = os.path.join(self.processed_hub_path, filename)
-        os.rename(src, dst)
-        print(f"  ✓ Hub文章已标记为已处理: {filename}")
-
-    def _generate_schedule(self):
-        """根据V4.1策略（长视频优先）生成真实的排期CSV。"""
-        schedule_path = os.path.join(self.schedule_path, "schedule.csv")
-
-        # 1. 收集所有已生成的内容文件
-        content_files = []
-        for root, _, files in os.walk(self.delivery_path):
-            for file in files:
-                if file.endswith(".json"):
-                    content_files.append(os.path.join(root, file))
-
-        # 2. 按长短视频分类（文件夹名包含"3min"为长视频）
-        long_videos = [f for f in content_files if "3min" in f]
-        short_content = [f for f in content_files if "3min" not in f]
-
-        # 3. 生成排期（V4规则：周一/三/五/日=长视频，周二/四/六=短内容）
-        schedule = []
-        start_date = datetime.now().date()
-        long_video_days = {0, 2, 4, 6}  # Mon, Wed, Fri, Sun
-
-        for i in range(14):  # 排两周
-            current_date = start_date + timedelta(days=i)
-            weekday = current_date.weekday()
-
-            if weekday in long_video_days:
-                pool = long_videos if long_videos else short_content
-                content_type = "long_video"
-            else:
-                pool = short_content if short_content else long_videos
-                content_type = "short_content"
-
-            if not pool:
-                continue
-
-            file_path = pool.pop(0)
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content_data = json.load(f)
-                title = content_data.get("title", "无标题")
-            except Exception:
-                title = "无标题"
-
-            schedule.append({
-                "publish_date": current_date.isoformat(),
-                "content_type": content_type,
-                "title": title,
-                "file_path": file_path
-            })
-
-        # 4. 写入CSV
-        if schedule:
-            with open(schedule_path, 'w', newline='', encoding='utf-8') as csvfile:
-                fieldnames = ["publish_date", "content_type", "title", "file_path"]
-                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-                writer.writeheader()
-                writer.writerows(schedule)
-            print(f"  ✓ 排期表已生成: {schedule_path}（共{len(schedule)}条）")
-        else:
-            print("  → 无内容可排期。")
-
+        if os.path.exists(src):
+            os.rename(src, dst)
+            print(f"  ✓ Hub文章已标记为已处理: {filename}")
 
 if __name__ == '__main__':
+    # 这是一个用于测试的示例
+    # 实际使用时，应该从外部传入hub_filename
     orchestrator = OrchestratorAgent()
-    orchestrator.execute_full_workflow()
+    
+    # 创建一个模拟的Hub文章用于测试
+    mock_hub_filename = "mock_hub_article.txt"
+    mock_hub_content = """
+    # 网感不是天赋，是训练出来的
+    很多人觉得网感是天生的，但MCN的经验告诉我们，网感完全是一套可以被刻意练习的方法论。我们总结了4个核心方法：
+    第一，分析选题。不要自己瞎想，去搜索，看同类爆款，爆款选题自带流量。
+    第二，训练开头。一个好的开头价值千金。你必须用3秒抓住用户，否则就会被划走。
+    第三，分析框架。把爆款视频一帧一帧拆解，你会发现它们的结构惊人地相似。
+    第四，建立素材库。高手从不临时找灵感，他们有一个自己的“弹药库”。
+    """
+    with open(os.path.join(orchestrator.hub_path, mock_hub_filename), 'w', encoding='utf-8') as f:
+        f.write(mock_hub_content)
+    
+    orchestrator.execute_workflow(hub_filename=mock_hub_filename)
